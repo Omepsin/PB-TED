@@ -20,12 +20,15 @@
       integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
       crossorigin="anonymous"
     ></script>
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
   </head>
   <body>
-    <input type="text" class="form-control" placeholder="Digite um valor:" />
-
-    <button type="submit" class="add btn btn-primary">Adicionar valor</button>
-
-    <p id="arvore">Sua árvore:</p>
+    <h1 style="text-align: center">Árvore Binária</h1>
+    <form id='form' style="display: flex; justify-content: center; align-items: center;">
+        <input id="valor" type="text" placeholder="Adicione um valor"/>
+        <button type="submit">Adicionar</button>
+      </form>
+    <div id="chart_div"></div>
   </body>
 </html>
